@@ -69,7 +69,19 @@ function draw() {
      insectGroup.destroyEach();
      }
     
- 
+ switch(score){
+      case 10:frog.scale=0.12;
+      break;
+      case 20:frog.scale=0.14;
+      break;
+      case 30:frog.scale=0.16;
+      break;
+      case 40:frog.scale=0.18;
+      break;
+      
+      default:break;
+      
+  }
   
   if(ground.x<0) {
     ground.x=ground.width/2;
