@@ -102,7 +102,9 @@ function draw() {
     frog.scale=0.05;     
   }
  
-    
+    camera.position.x=frog.x
+  camera.position.y=frog.y
+  
     spawninsect();
      spawnobstacle();
   
